@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+}
+.left-col {
+  width: 300px;
+  background: #a72b9c;
+  color: #fff;
+  padding: 20px;
+}
+.profile-pic {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.position {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.contact-info,
+.skills {
+  margin-bottom: 30px;
+}
+.contact-info h2,
+.skills h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+.skills li {
+  margin: 5px 0;
+  font-size: 14px;
+  position: relative;
+  padding-left: 15px;
+}
+.skills li::before {
+  content: "•";
+  color: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.right-col {
+  flex: 1;
+  padding: 20px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section h2 {
+  font-size: 22px;
+  color: #4f2c50;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #4f2c50;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.about p {
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.institution a {
+  text-decoration: none;
+  color: #55266b;
+}
+.education-item {
+  margin-bottom: 20px;
+}
+.education-item h3 {
+  font-size: 18px;
+  color: #4f2c50;
+  margin-bottom: 5px;
+}
+.education-item .institution {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.education-item .period {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}

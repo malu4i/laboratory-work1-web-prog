@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>HTML5</h1>
+      <hr />
+    </div>
+
+    <!-- Содержание (Зміст) -->
+    <div class="contents">
+      <h2>Зміст</h2>
+      <ul>
+        <li>Історія</li>
+        <li>Структура документації (WHATWG)</li>
+        <li>Нові можливості</li>
+        <ul>
+          <li>Введено нові теги, а деякі прибрано</li>
+          <li>Приклад розмітки вебсторінки за допомогою HTML5</li>
+          <li>Підтримка тегів &lt;video&gt; та &lt;audio&gt;</li>
+          <li>Векторна графіка</li>
+          <ul>
+            <li>&lt;canvas&gt;</li>
+            <li>2SVG</li>
+          </ul>
+          <li>Збереження даних на стороні клієнта</li>
+          <li>Редагування вмісту елементу</li>
+        </ul>
+        <li>Технології, які не входять до HTML5</li>
+        <li>Процес стандартизації</li>
+        <li>Виноски</li>
+        <li>Посилання</li>
+        <li><a href="resume.html">Моє резюме</a></li>
+      </ul>
+    </div>
+
+    <!-- Короткие абзацы об HTML5 -->
+    <div class="intro">
+      <p style="width: 600px; margin-bottom: 5px">
+        <b>HTML5</b> — наступна версія мови
+        <a href="https://uk.wikipedia.org/wiki/HTML">HTML</a>. До складу робочої
+        групи з HTML5 увійшли
+        <a href="https://uk.wikipedia.org/wiki/AOL">AOL</a>,
+        <a href="https://uk.wikipedia.org/wiki/AOL">Apple</a>,
+        <a href="https://uk.wikipedia.org/wiki/AOL">Google</a>,
+        <a href="https://uk.wikipedia.org/wiki/AOL">IBM</a>,
+        <a href="https://uk.wikipedia.org/wiki/AOL">Microsoft</a>,
+        <a href="https://uk.wikipedia.org/wiki/AOL">Mozilla</a>,
+        <a href="https://uk.wikipedia.org/wiki/AOL">Nokia</a>,
+        <a href="https://uk.wikipedia.org/wiki/AOL">Opera</a>, та кілька сотень
+        інших виробників.
+      </p>
+      <p style="width: 600px; margin-top: 5px">
+        Існує деяка плутанина щодо версійності, оскільки існують дві незалежні
+        групи
+        <a
+          href="https://uk.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D0%BA"
+          >розробників</a
+        >
+        — <a href="https://uk.wikipedia.org/wiki/WHATWG">WHATWG</a> та
+        <a href="https://uk.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C</a
+        >.
+      </p>
+    </div>
+
+    <!-- Блок про WHATWG -->
+    <div class="whatwg-section">
+      <h3>WHATWG</h3>
+      <p style="text-indent: 2em; width: 635px">
+        відмовились від принципу «версійності» на користь «вічної розробки» при
+        прийнятті специфікації HTML.<a href=""><sup>[1]</sup></a> Таке рішення
+        було спричинено намаганням пришвидшити втілення стандарту в життя, тобто
+        розробникам веббраузерів не потрібно чекати допоки вийде офіційна
+        затверджена версія специфікації (специфікація перейде в стан
+        recomendation), вони можуть втілювати певні частини специфікації вже
+        зараз. Тому за версією WHATWG існує тільки одна специфікація, яка
+        постійно розвивається — HTML. Ці дві групи працювали в тандемі:
+        <b>WHATWG</b> писав специфікації в режимі «живого стандарту»,
+        <mark>а W3C</mark> брав ці специфікації як «знімки», й впроваджував їх у
+        чіткі версії своєї специфікації. W3C працював значно повільніше, бо
+        повинен забезпечувати вимоги більшого спектра користувачів, а не тільки
+        <a href="">веббраузерів</a>.<a href=""><sup>[2]</sup></a>
+      </p>
+      <p>
+        Робоча група <i>WHATWG</i> пропонує наступну структуру документації:
+      </p>
+      <ol>
+        <li>Загальні положення</li>
+        <li>
+          Семантика, структура, та
+          <a
+            href="https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81"
+            >API</a
+          >
+          HTML-документу.
+        </li>
+        <li>Елементи HTML.</li>
+        <li>
+          <a
+            href="https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D0%BA%D1%80%D0%BE%D0%B4%D0%B0%D0%BD%D1%96_(HTML)"
+            >Microdata</a
+          >
+        </li>
+        <li>Завантаження вебсторінок</li>
+        <li>API для веб застосувань</li>
+        <li>Взаємодія з користувачем</li>
+        <li>Відеоконференції та взаємодія peer-to-peer</li>
+        <li>Повідомлення</li>
+        <li>Синтаксис HTML</li>
+        <li>
+          Синтаксис <a href="https://uk.wikipedia.org/wiki/XHTML">XHTML</a>
+        </li>
+        <li>Застарілі функції</li>
+      </ol>
+    </div>
+
+    <!-- Блок о сохранении данных -->
+    <div class="storage-section">
+      <h2>Збереження даних на стороні клієнта</h2>
+      <p style="width: 650px">
+        Крім того, HTML5 дозволяє розробникам зберігати дані на стороні клієнта.
+        Це значно зменшує обсяг інформації, що передається між веббраузером та
+        сервером при використанні web-2.0 застосувань. Зараз триває робота над
+        такими специфікаціями, що охоплюють даний розділ:
+      </p>
+
+      <ul>
+        <li>Session Storage</li>
+        <li>Local Storage</li>
+        <li>IndexedDB</li>
+      </ul>
+      <hr style="border: none; height: 2px; background-color: green" />
+    </div>
+
+    <!-- Базовая структура -->
+    <div class="base-structure">
+      <h4>Базова структура HTML документа</h4>
+      <pre>
+      &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+  
+              &lt;head&gt;
+                  &lt;meta charset=”UTF-8” /&gt;
+                  &lt;title&gt;title&lt;/title&gt;
+              &lt;/head&gt;
+              &lt;body&gt;
+                  &lt;p&gt; &frac14; + &frac14; = &iquest;&lt;/p&gt;
+              &lt;/body&gt;
+          &lt;/html&gt;
+      </pre>
+      <hr />
+    </div>
+
+    <!-- Мій текст (птичка) -->
+    <div class="my-text">
+      <h3>Мій текст</h3>
+      <blockquote>
+        <p style="width: 650px">
+          Жила собі маленька пташка, яка понад <u>усе</u> хотіла створювати
+          гарні вебсторінки. Одного дня вона вирішила вивчити
+          <srtong>HTML і CSS</srtong>. Вона сіла на гілочку високого дуба,
+          відкрила ноутбук і почала читати <small>онлайн-уроки</small>. Спочатку
+          пташці було важко запам'ятати всі ці теги та селектори.
+          <s>І вона все закинула.</s> Але поступово, після кількох спроб, вона
+          вже легко створювала абзаци, заголовки, посилання й навіть цілі
+          списки. Пташка була дуже щасливою, коли навчилася змінювати кольори та
+          шрифти за допомогою CSS. — Наталія
+        </p>
+      </blockquote>
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>
